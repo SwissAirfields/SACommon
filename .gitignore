@@ -1,0 +1,9 @@
+_PackageInt/*
+Packages/*
+
+External/*/*.gltf
+External/*/*/*.gltf
+External/*/*.bin
+External/*/*/*.bin
+
+
