@@ -1,0 +1,204 @@
+{
+    "asset" : {
+        "extensions" : {
+            "ASOBO_normal_map_convention" : {
+                "tangent_space_convention" : "DirectX"
+            }
+        },
+        "generator" : "Extended Khronos glTF Blender I/O v1.0.0",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "ASOBO_normal_map_convention"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "blenderkitUI" : {
+                    "assetbar_on" : 0,
+                    "turn_off" : 0
+                },
+                "uuid" : "6d5f8ee8-213a-451c-9a99-29addc1a4f31",
+                "glTF2ExportSettings" : {
+                    "export_apply" : 1,
+                    "export_extras" : 1,
+                    "export_generate_guid" : 1,
+                    "export_lods" : 0,
+                    "export_tangents" : 1,
+                    "export_texture_dir" : "../texture/",
+                    "export_xml" : 1,
+                    "export_xml_file" : "Cone_Yellow",
+                    "use_selection" : 1
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Cone",
+            "scale" : [
+                5.360950946807861,
+                6.238874912261963,
+                3.5670931339263916
+            ],
+            "translation" : [
+                -1.1159169673919678,
+                0.05120755732059479,
+                1.446286678314209
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "Floor",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "metallicRoughnessTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Conep",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "scuffed-plastic-normal",
+            "uri" : "scuffed-plastic-normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "scuffed-plastic6-alb",
+            "uri" : "scuffed-plastic6-alb.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "scuffed-plastic-rough",
+            "uri" : "scuffed-plastic-rough.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 144,
+            "max" : [
+                0.27799099683761597,
+                0.07999999821186066,
+                -0.3336905539035797
+            ],
+            "min" : [
+                0.13807035982608795,
+                0,
+                -0.4736112058162689
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 144,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 144,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 144,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 144,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1728,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1728,
+            "byteOffset" : 1728
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2304,
+            "byteOffset" : 3456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1152,
+            "byteOffset" : 5760
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 6912
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 7200,
+            "uri" : "Cone_Yellow.bin"
+        }
+    ]
+}
